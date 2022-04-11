@@ -392,7 +392,7 @@ ul {
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 0.01em;
-  text-align: center;
+  text-align: left;
   color: var(--primary-text-color);
 }
 
