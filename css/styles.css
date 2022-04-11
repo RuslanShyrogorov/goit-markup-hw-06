@@ -388,12 +388,11 @@ ul {
 
 .label-name{
   display: inline-block;
-  padding: 0;
-  margin-top: 0;
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 0.01em;
+  text-align: center;
   color: var(--primary-text-color);
 }
 
@@ -402,13 +401,13 @@ ul {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 10px;
   padding-left: 42px;
   transition: border-color var(--time-animation) var(--animation);
 }
 
 .contact-form-wrapper{
   position: relative;
+  margin-bottom: 10px;
 }
 
 .contact-form-input:focus{
@@ -488,7 +487,6 @@ ul {
   background-color: var(--accent-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-bottom: 40px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
