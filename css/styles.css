@@ -343,7 +343,6 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   width: 528px;
-  height: 581px;
   background-color: var(--bgc-primary-color);
   padding: 40px;
 }
@@ -438,9 +437,6 @@ ul {
 .contact-form-comment:focus{
   outline: none;
   border-color: var(--accent-text-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-  0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .contact-form-checkbox-wrapper{
@@ -449,6 +445,7 @@ ul {
 .contact-form-checkbox-label{
   display: flex;
   align-items: center;
+  justify-content: center;
   line-height: 1.71;
   color: var(--primary-text-color);
 }
@@ -733,10 +730,6 @@ ul {
 .footer-item-address {
   margin-right: 70px;
 }
-.footer-item-social {
-  height: 80px;
-  margin-right: 92px;
-}
 .footer .text {
   margin-bottom: 20px;
   color: var(--bgc-primary-color);
@@ -754,6 +747,9 @@ ul {
 .footer .social-list-link:hover,
 .footer .social-list-link:focus {
   background-color: var(--accent-text-color);
+}
+.footer-form-subscribe{
+  margin-left: auto;
 }
 .footer-form-subscribe-text{
   margin-bottom: 20px;
@@ -778,6 +774,7 @@ ul {
   margin-right: 12px;
 }
 .footer-form-subscribe-btn{
+  position: relative;
   display: inline-block;
   min-width: 200px;
   height: 50px;
@@ -797,10 +794,6 @@ ul {
 
   transition: background-color var(--time-animation) var(--animation);
 }
-.subscribe-btn-wrapper{
-  position: relative;
-  display: inline-block;
-}
 .subscribe-btn-icon{
   position: absolute;
   top: 50%;
@@ -811,10 +804,6 @@ ul {
 .footer-form-subscribe-btn:focus{
   background-color: var(--hover-buttom-primary);
 }
-/* .footer-form-subscribe-btn::before{
-  content: "";
-
-} */
 /* =======Portfolio =======*/
 .work-examples .list-buttons {
   display: flex;
